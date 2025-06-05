@@ -40,7 +40,7 @@
 
     for (let i = 0; i < 80; i++) {
       const text = hackerWords[Math.floor(Math.random() * hackerWords.length)];
-      const textGeo = new THREE.TextBufferGeometry(text, {
+      const textGeo = new THREE.TextGeometry(text, {
         font,
         size: 2,
         height: 0.1,
