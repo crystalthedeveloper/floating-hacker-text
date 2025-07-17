@@ -47,7 +47,7 @@
         curveSegments: 4
       });
 
-      const textMat = new THREE.MeshBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.25 });
+      const textMat = new THREE.MeshBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.30 });
       const mesh = new THREE.Mesh(textGeo, textMat);
       mesh.position.set(
         (Math.random() - 0.5) * 400,
