@@ -3,7 +3,7 @@
   if (!container) return;
 
   const scene = new THREE.Scene();
-  scene.background = new THREE.Color(0x000000);
+  scene.background = null;
 
   const camera = new THREE.PerspectiveCamera(55, container.clientWidth / container.clientHeight, 1, 1000);
   camera.position.set(0, 0, 130);
