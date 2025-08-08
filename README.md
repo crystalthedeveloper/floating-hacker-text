@@ -42,7 +42,7 @@ A lightweight, Webflow-compatible 3D animation that floats code-like text in spa
     loadScript("https://unpkg.com/three@0.140.0/build/three.min.js")
       .then(() => loadScript("https://unpkg.com/three@0.140.0/examples/js/loaders/FontLoader.js"))
       .then(() => loadScript("https://unpkg.com/three@0.140.0/examples/js/geometries/TextGeometry.js"))
-      .then(() => loadScript("https://cdn.jsdelivr.net/gh/crystalthedeveloper/floating-hacker-text@v1.2.0/floating-hacker-text.js"))
+      .then(() => loadScript("https://cdn.jsdelivr.net/gh/crystalthedeveloper/floating-hacker-text@v1.0.1/floating-hacker-text.js"))
       .catch((err) => console.error("Lazy 3D Scene Error:", err));
   });
 </script>
